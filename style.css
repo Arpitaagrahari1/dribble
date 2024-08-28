@@ -1,0 +1,300 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .navbar {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 35px;
+        }
+        
+        .navbar a {
+            font-size: 20px;
+        }
+        
+        .navbar input {
+            height: 35px;
+        }
+        
+        .group1 {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .group2 {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .group2 button {
+            height: 50px;
+            width: 120px;
+            background-color: rgb(147, 220, 244);
+            border-radius: 15px;
+        }
+        
+        .searchbar {
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 15px;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        
+        .searchbar input {
+            outline: none;
+            border: none;
+        }
+        /*hero section*/
+        
+        .hero {
+            height: 80vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .hero h1 {
+            font-size: 4vw;
+            font-weight: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            line-height: 1;
+        }
+        
+        .hero p {
+            font-size: 1.5vw;
+            text-align: center;
+        }
+        /*hero section end*/
+        
+        .bigsearch {
+            height: 50px;
+            width: 500px;
+            display: flex;
+            gap: 20px;
+            border: 1px solid;
+            align-items: center;
+            border-radius: 30px;
+            padding-left: 10px;
+        }
+        
+        .bigsearch i {
+            font-size: 30px;
+        }
+        
+        .bigsearch input {
+            font-size: 20px;
+            width: 80%;
+            height: 90%;
+            outline: none;
+            border: none;
+            background-color: transparent;
+        }
+        
+        .trending {
+            height: 50px;
+            width: 60%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .trending h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+        }
+        
+        .trending a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+            border: 1px solid #f2f2f2;
+            border-radius: 30px;
+        }
+        
+        .trending a:hover {
+            border-color: #dedada;
+        }
+        /*nav baar second start*/
+        
+        .navbar2 {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .grp1 select {
+            height: 40px;
+            width: 90px;
+            border: 1px solid black;
+            border-radius: 15px;
+            outline: none;
+        }
+        
+        .grp2 {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .grp2 a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 15px;
+            padding-left: 15px;
+            border: 1px solid #f2f2f2;
+            border-radius: 30px;
+        }
+        
+        .grp2 a:hover {
+            border-color: #dedada;
+        }
+        
+        .grp3 {
+            height: 40px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+        
+        .grp {
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+        }
+        
+        .grp3 i {
+            font-size: 30px;
+            background-color: transparent;
+        }
+        /* Card section start*/
+        
+        .card {
+            position: relative;
+            overflow: hidden;
+            height: 300px;
+            width: 300px;
+        }
+        
+        .cardwrapper {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .imgwrapper {
+            height: 300px;
+            width: 300px;
+            overflow: hidden;
+            border-radius: 30px;
+            display: flex;
+            gap: 30px;
+        }
+        
+        .imgwrapper img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            display: flex;
+        }
+        /*card section end*/
+        
+        .hoverbox {
+            height: 50px;
+            width: 100%;
+            background: linear-gradient(#f2f2f2, whitesmoke);
+            /* background-color: #3d0684; */
+            position: absolute;
+            bottom: 0px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            /* display: none; */
+            opacity: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .card:hover .hoverbox {
+            /* display: block; */
+            opacity: 1;
+        }
+        
+        .grp11 {
+            font-size: 20px;
+        }
+        
+        .grp12 {
+            font-size: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            gap: 10px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .footer {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .grp22 {
+            display: flex;
+            gap: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #0D0C22;
+            font-size: 20px;
+        }
+        
+        .grp33 {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .grp33 i {
+            font-size: 30px;
+        }
